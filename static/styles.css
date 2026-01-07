@@ -1,0 +1,65 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px lightgray;
+  text-align: center;
+}
+.content h1 {
+  color: black;
+}
+.content h3 {
+  color: darkslategray;
+}
+.content table {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+.content table th {
+  background-color: aliceblue;
+  color: darkslategray;
+}
+.content table th, .content table td {
+  padding: 10px;
+  border: 1px solid grey;
+}
+.content a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: lightblue;
+  color: darkslategray;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.content a:hover {
+  background-color: blue;
+  color: white;
+}
+.content input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.content #btn_add, .content #btn_edit {
+  background-color: lightgreen;
+  color: darkslategray;
+  cursor: pointer;
+}
+.content #btn_add:hover, .content #btn_edit:hover {
+  background-color: green;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
